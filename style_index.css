@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('./gym\ back.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 200px;
+    /* margin-top: 50px; */
+}
+
+/* Main Form Container */
+main {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto; /* Adjust the top margin as needed */
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Form Title */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Container */
+.input_deg {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.input_deg label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Inputs */
+.input_deg input[type="email"],
+.input_deg input[type="password"],
+.input_deg input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit Button */
+.input_deg input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.input_deg input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 14px;
+}

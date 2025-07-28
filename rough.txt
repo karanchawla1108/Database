@@ -1,0 +1,4 @@
+if (!isset($_SESSION['user_email']) || $_SESSION['usertype'] != 'staff') {
+    header('Location: index.php');
+    exit();
+}
